@@ -1,0 +1,144 @@
+.hero {
+    background: url('../images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    font-family: 'Elsie';
+    text-align: center;
+    padding-top: 35vh;
+    color: black;
+}
+
+.btn_register {
+    margin-top: 35vh;
+}
+
+.title {
+    font-size: 197px;
+}
+
+.text {
+    background: url('../images/back1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 80vh; */
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 3fr 1fr;
+    padding: 50px;
+    padding-top: 70px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.symbol1, .symbol2 {
+    height: 200px;
+    width: 200px;
+}
+
+.h2 {
+    line-height: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.footerimg {
+    margin: 40px;
+    height: 80px;
+}
+
+.faq {
+    background: url('../images/back1.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding: 30px;
+    color: #A5BE00;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.faqtitle {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #A5BE00;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.container {
+    gap: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.faqsub {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.faqque {
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    /* margin-top: 90px; */
+    background-color: #A5BE00;
+    text-align: center;
+    padding: 50px;
+}
+
+
+@media (max-width: 1100px) {
+    .hero {
+        padding-top: 34vh;
+    }
+
+    .title {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .faqtitle {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .image1 {
+        margin-bottom: 50px;
+    }
+
+    .text {
+        display: block;
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .hero {
+        padding-top: 36vh;
+    }
+
+    .symbol1, .symbol2 {
+        display: none;
+    }
+}
